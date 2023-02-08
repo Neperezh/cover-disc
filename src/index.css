@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    background-color: radial-gradient(#FFF, #EEE);
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .cover {
+    z-index: 1;
+    width: 420px;
+    height: 420px;
+    background-color: #d82626;
+    background-image: url("./assets/img/disc.jpg");
+    background-position: center;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+  }
+ .disc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #333;
+    background: repeating-radial-gradient(circle, #333, #111);
+    transition: 2s ease-out;
+  }
+  
+  .disc-protector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background-color: #900;
+    border-radius: 100%;
+  }
+  
+  .disc-hole {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+  }
+  
+  .disc:hover {
+    transform: translateX(-400px);
+  }
+  
+  
+  /*va? yo tengo uno que si va, si no to
+  
+subelo a git porfa
+  buena chavos
+  */
